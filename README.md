@@ -14,7 +14,7 @@
 
 ## Discription
 
-Speech to text and vice versa. here i use javascript
+Speech to text and vice versa. here i used javascript
 
 #
 #  
