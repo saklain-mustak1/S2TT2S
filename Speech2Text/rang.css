@@ -1,0 +1,67 @@
+body {
+    background-color:skyblue;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    height: 100vh;
+}
+
+form {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+button{
+    background-color:cyan;
+    padding: 2px;
+    margin: 2px;
+    padding: 5px 10px;
+    font-size: 13px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    color: red;
+}
+button:active{
+    background-color: rgb(226, 22, 155);
+    color: pink;
+}
+
+form * {
+    width: 50%;
+}
+
+textarea {
+    height: 250px;
+}
+
+h1 {
+    text-align: center;
+    color: darkgreen;
+}
+.copybtn{
+    position:absolute;
+    padding: 5px 10px;
+    font-size: 15px;
+    color:darkblue;
+    right:16%;
+    top: 30%;
+    border: 1px solid blue;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color:aliceblue;
+}
+.copybtn:active{
+    background-color: rgb(22, 226, 101);
+    color: #fff;
+}
+.landiv{
+    position:absolute;
+    padding: 5px 10px;
+    font-size: 16px;
+    left: 10%;
+    top: 29%;
+    color: rgb(26, 33, 12);
+}
