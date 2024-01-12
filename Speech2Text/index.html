@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minor</title>
+    <link rel="stylesheet" href="rang.css">
+</head>
+<body>
+    <div>
+        <script src="bgcolor.js"></script>
+        Background Colour:
+        <select onchange="color(this.value)" autofocus>
+            <option value="skyblue"style="background-color: skyblue;" selected>skyblue</option>
+            <option value="gray"style="background-color: gray;">gray</option>
+            <option value="red" style="background-color: red;" >red</option>
+            <option value="pink"style="background-color: pink;">pink</option>
+            <option value="yellow"style="background-color: yellow;">yellow</option>
+            <option value="lightgreen"style="background-color: lightgreen;">lightgreen</option>
+            <option value="blue"style="background-color: blue;">blue</option>
+            <option value="maroon"style="background-color: maroon;">maroon</option>
+        </select>
+    </div>
+    <div class="landiv">
+        English:<input type="radio" name="lan" value="en" checked><br>
+          hindi:<input type="radio" name="lan" value="hi">
+    </div>
+    <form action="">
+        <h1>TEXT BOX AREA</h1>
+        <div>voice change:<select></select></div>
+        <textarea id="txt-box" placeholder="say something" cols="30" rows="10"></textarea>
+        <button type="button" onclick="speak()">Speak!</button>
+        <button name="btn-stop" type="button">Stop</button>
+        <button type="button">Speaker</button>
+        <button type="button">Pause</button>
+        <button type="button">Resume</button>
+    </form>
+    <script src="copy.js"></script>
+    <div>
+        <button class="copybtn" onclick="copy()">
+            <span id="copyid">Copy</span>
+        </button>
+    </div>
+    <script src="speak.js"></script>
+    <script src="voice.js"></script>
+</body>
+</html>
